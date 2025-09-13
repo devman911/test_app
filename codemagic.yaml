@@ -7,7 +7,6 @@ workflows:
       app_store_connect: codemagic
     environment:
       ios_signing:
-        distribution_type: app_store
         bundle_identifier: com.example.appTest
       vars:
         APP_ID: 1111111111 # <-- Put your APP ID here
